@@ -7,7 +7,7 @@ body {
 }
 
 /* Шапка сайта (тёмный фон, flex-строка, логотип слева, навигация справа) */
-.todo {
+header {
     background-color: #222;
     color: white;
     display: flex;
@@ -17,27 +17,27 @@ body {
 }
 
 /* Логотип / название компании в шапке */
-.todo {
+.logo {
     font-size: 24px;
     font-weight: bold;
 }
 
 /* Навигационное меню — список ссылок в шапке (горизонтальный flex) */
-.todo {
+.nav-list {
     list-style: none;
     display: flex;
     gap: 20px;
 }
 
 /* Отдельная ссылка в навигации */
-.todo {
+header a {
     color: white;
     text-decoration: none;
     font-size: 18px;
 }
 
 /* Секция-герой (большой баннер с призывом к действию) */
-.todo {
+.hero-section {
     text-align: center;
     padding: 60px 20px;
     background-color: #444;
@@ -45,38 +45,38 @@ body {
 }
 
 /* Заголовок в секции-герое */
-.todo {
+section .hero-title {
     font-size: 32px;
     margin-bottom: 10px;
 }
 
 /* Подзаголовок / текст в секции-герое */
-.todo {
+section .hero-text {
     font-size: 20px;
 }
 
 /* Секция "О нас" */
-.todo {
+.about-section {
     padding: 40px;
     text-align: center;
     background-color: white;
 }
 
 /* Фотография команды в секции "О нас" */
-.todo {
+section .about-image {
     width: 80%;
     max-width: 600px;
     margin-top: 20px;
 }
 
 /* Секция "Услуги" (светло-серый фон) */
-.todo {
+.services-section {
     background-color: #e3e3e3;
     padding: 40px;
 }
 
 /* Список услуг (горизонтальный flex без маркеров) */
-.todo {
+section .services-list {
     display: flex;
     justify-content: center;
     gap: 20px;
