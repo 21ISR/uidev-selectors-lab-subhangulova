@@ -84,7 +84,7 @@ section .services-list {
 }
 
 /* Отдельный элемент услуги (карточка с тенью) */
-.todo {
+section .service-item {
     background: white;
     padding: 15px;
     border-radius: 5px;
@@ -93,44 +93,44 @@ section .services-list {
 }
 
 /* Секция "Портфолио" */
-.todo {
+.portfolio-section {
     padding: 40px;
     text-align: center;
 }
 
 /* Сетка проектов в портфолио (горизонтальный flex) */
-.todo {
+.portfolio-grid {
     display: flex;
     justify-content: center;
     gap: 15px;
 }
 
 /* Изображение внутри карточки портфолио */
-.todo {
+.portfolio-section img {
     width: 100%;
     max-width: 300px;
     border-radius: 10px;
 }
 
 /* Секция "Отзывы" */
-.todo {
+.testimonials-section {
     background-color: #f1f1f1;
     padding: 40px;
     text-align: center;
 }
 
 /* Текст отзыва (курсив) */
-.todo {
+.testimonial {
     font-style: italic;
 }
 
 /* Имя автора отзыва (жирный) */
-.todo {
+.testimonial-author {
     font-weight: bold;
 }
 
 /* Подвал сайта */
-.todo {
+.footer-section {
     background-color: #222;
     color: white;
     text-align: center;
@@ -138,13 +138,13 @@ section .services-list {
 }
 
 /* Ссылки в блоке контактов */
-.todo {
+footer a {
     color: #ff9800;
     text-decoration: none;
 }
 
 /* Форма обратной связи (вертикальный flex) */
-.todo {
+.contact-form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -153,7 +153,7 @@ section .services-list {
 }
 
 /* Текстовые поля формы (input и textarea) */
-.todo {
+.contact-form input,textarea {
     width: 80%;
     max-width: 400px;
     padding: 10px;
@@ -162,7 +162,7 @@ section .services-list {
 }
 
 /* Базовая кнопка */
-.todo {
+button {
     padding: 10px 20px;
     font-size: 18px;
     border: none;
@@ -170,13 +170,13 @@ section .services-list {
 }
 
 /* Основная кнопка (оранжевая, для призыва к действию) */
-.todo {
+.btn.primary {
     background-color: #ff9800;
     color: white;
 }
 
 /* Кнопка отправки формы */
-.todo {
+.btn.submit {
     background-color: #ff9800;
     color: white;
 }
